@@ -1,5 +1,5 @@
 /*
-    Panagiotis Vardalas | sdi2400013
+    Panagiotis Vardalas
 */
 
 // Libraries
