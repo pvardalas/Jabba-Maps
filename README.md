@@ -1,17 +1,15 @@
-# Shortest route calculation using Jabbamaps
+# Travelling Salesman Problem
 
 
 ### Author
 
-- **Panagiotis Vardalas**  
-  *Student ID: sdi2400013*
+- **Panagiotis Vardalas**
 
 ## Overview
 
 This C program calculates the optimal route between cities based on data provided in a text file.
 
 ## Usage
-Once compiled, you can use the program to compute the SMA with the following syntax:
 
 ```sh
 gcc -o jabbamaps jabbamaps.c
@@ -49,6 +47,5 @@ Total cost: 150
 ```
 ## How It Works
 
-Frees allocated memory before exiting.
 - **Input Parsing:** Reads city connection data from the specified file.
-- **Optimal Route Calculation:** Utilizes a brute-force method to evaluate all possible routes, ensures that each city is visited exactly once and then calculates the total distance for each route and identifies the one with the minimum distance.
+- **Optimal Route Calculation:** Utilizes a brute-force with backtracking method to evaluate all possible routes. This ensures that each city is visited exactly once and then calculates the total distance for each route and identifies the one with the minimum distance.
